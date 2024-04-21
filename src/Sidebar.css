@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.anti--main--Div{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    margin-left: 1rem;
+}
+.sidebar--open{
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.sidebar--close{
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-165px);
+}
+.sidebar--div{
+    background-color: #181818;
+    height: 70vh;
+    margin-top: 0rem;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.logo-hamburger-cancel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.hamburger{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#menu{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+#back{
+    color: whitesmoke;
+    font-size: 1.7rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+#plus{
+    font-size: 1.8rem;
+    margin-right: 0.7rem;
+}
+#closedMenu{
+    margin-right: 0rem;
+}
+.createNote{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.ul--list li{
+    list-style: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.ul--list li:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.ul--list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap:1rem;
+}
+.list{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+
+.ul--list2 li{
+    list-style: none;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.ul--list2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap:1rem;
+}
+.ul--list2 li .createNote1{
+    margin-right: 0;
+    padding: 0;
+}
+.ul--list2 li:hover{
+    background-color: none;
+}
+.ul--list2 li{
+    margin-top: 1rem;
+    padding:0;
+    margin-right: 0.7rem;
+}
+#allIcons{
+    font-size: 1.8rem;
+}
+.ul--list2{
+    margin-right:0.6rem;
+}
+.list2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.main--Div{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* overflow:hidden; */
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.catseye{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.anti--catseye{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.horizontal{
+    width: 90%;
+    height: 0.5px;
+    background-color: whitesmoke;
+}
+.anti--horizontal{
+    width: 90%;
+    height: 0.9px;
+    background-color: black;
+}
+.horizontal--div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anti--hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.hero--section--1{
+    width: 100%;
+    background-color: #181818;
+}
+.anti--hero--section--1{
+    width: 100%;
+    background-color: #ffffff;
+}
+.logo{
+    width: 3rem;
+}
+.anti--logo{
+    width: 3rem;
+}
+.hero--section--2{
+    width: 100%;
+    background-color: #181818;
+}
+.anti--hero--section--2{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.anti--catseye{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: inherit;
+    height: 15%;
+    left: 0;
+    top: 0;
+    gap: 1rem;
+    padding-left: 10%;
+}
+.logo--name{
+    user-select: none;
+    color: whitesmoke;
+    font-size: 1.9rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.anti--logo--name{
+    user-select: none;
+    color: #181818;
+    font-size: 1.9rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.title{
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left:8rem;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+.anti--title{
+    margin-top: 3rem;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left:8rem;
+    gap: 0.8rem;
+}
+.info{
+    color: #8A8A8A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.anti--info{
+    color: #313132;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.info--div{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+.anti--info--div{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+.button--div{
+    margin-left: 8rem;
+}
+.createButton{
+    user-select: none;
+    padding: 10px 25px;
+    margin-top: 2.5rem;
+    border-radius: 12px;
+    color: whitesmoke;
+    background-color: #181818;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.createButton:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.anti--createButton{
+    user-select: none;
+    padding: 10px 25px;
+    margin-top: 2.5rem;
+    border-radius: 12px;
+    border: 2px solid #181818;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.anti--createButton:hover{
+    background-color: #181818;
+    color: whitesmoke;
+}
+.createButton:active{
+    transform:scale(0.98);
+    transition:0.15s ease
+}
+#pen-icon:before {
+    content: "\eac0";
+    font-size:1.5rem;
+    margin-left: 1rem;
+}
+.bx-right-arrow-alt:before {
+    content: "\ebe6";
+    font-size:1.5rem;
+    margin-left: 1rem;
+}
+.anti--createButton:active{
+    transform:scale(0.98);
+    transition:0.15s ease
+}
+.horizontal-rule{
+    width: 15%;
+    background-color: #8a8a8a96;
+    height: 2.5px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+.anti--hr{
+    width: 15%;
+    background-color: #68686896;
+    height: 2.5px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+.bxs-sun{
+    color: white;
+    margin-left: 60%;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius:50% ;
+}
+.bxs-moon{
+    color: #181818;
+    margin-left: 60%;
+    font-size: 1.7rem;
+    cursor: pointer;
+}

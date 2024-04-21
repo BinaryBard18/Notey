@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select:auto;
+}
+.myNotes{
+    color: white;
+}
+.outer--cover{
+    width: 75%;
+    background-color: rgba(27, 27, 27, 0.791);
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 8.5%;
+    display: flex;
+    padding-top: 2rem;
+    /* justify-content: center; */
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-y: scroll;
+}
+.anti--outer--cover{
+    width: 75%;
+    background-color: rgb(24, 25, 25);
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 8.5%;
+    display: flex;
+    padding-top: 2rem;
+    /* justify-content: center; */
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-y: scroll;
+}
+.deleted--note{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(30, 30, 30);
+    width: 95%;
+    border-radius:6px;
+    padding: 20px 20px;
+    margin-bottom: 0.5rem   ;
+}
+.anti--deleted--note{
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(28, 28, 28);
+    width: 95%;
+    border-radius:6px;
+    padding: 20px 20px;
+}
+.heading{
+    background-color:rgb(135, 132, 132) ;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.anti--heading{
+    background-color:rgb(124, 124, 124) ;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.head{
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 2rem; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.horizontal--rule{
+    width: 25%;
+    height: 1px ;
+    margin-top: 1rem;
+    background-color: grey;
+    z-index: 188889;
+}
+.content{
+    margin-top: 1rem;
+    background: rgb(72, 70, 70);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(225, 225, 225);
+    height: auto;
+    font-size: 1.15rem;
+    padding: 7px 10px;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+#icon{
+    font-size: 1.5rem;
+    color: grey;
+    cursor: pointer;
+}
+#icon:hover{
+    color: rgb(205, 202, 202);
+}
+.deleteMessage{
+    margin-top: 6rem;
+    width: 20rem;
+    height: 17rem;
+    border-radius: 8px;
+}
+.message--div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+.anti--message--div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
